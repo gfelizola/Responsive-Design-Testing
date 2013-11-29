@@ -107,7 +107,7 @@ $(document).ready(function(){
     //load other pages with the same URL
     if(allLoaded()){
       if(error){
-        alert('Browsers prevent navigation from inside iframes across domains.\nPlease use the textbox at the top for external sites.');
+        // alert('Browsers prevent navigation from inside iframes across domains.\nPlease use the textbox at the top for external sites.');
         loadPage('', defaultURL);
       }else{
         loadPage($this, url);
