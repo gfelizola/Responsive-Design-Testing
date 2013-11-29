@@ -1,4 +1,4 @@
-var defaultURL = 'mattkersley.com'; //<---- CHANGE TO YOUR WEBSITE URL
+var defaultURL = 'http://127.0.0.1:9000';
 
 //show loading graphic
 function showLoader(id) {
